@@ -1,0 +1,9 @@
+{
+  "grant": ["call_meeting"],
+  "when": {
+    "all": [
+      {"roles": "employee"},
+      {"roles": "investor"}
+    ]
+  }
+}
