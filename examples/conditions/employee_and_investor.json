@@ -1,0 +1,6 @@
+{
+  "all": [
+    {"roles": "employee"},
+    {"n": 1, "roles": "investor"}
+  ]
+}

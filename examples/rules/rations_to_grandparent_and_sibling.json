@@ -1,0 +1,9 @@
+{
+  "grant": ["rations"],
+  "when": {
+    "all": [
+      {"roles": "grandparent"},
+      {"roles": "sibling", "n": 1}
+    ]
+  }
+}

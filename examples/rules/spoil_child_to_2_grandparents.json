@@ -1,0 +1,6 @@
+{
+  "grant": ["spoil_child"],
+  "when": {
+    "roles": "grandparent", "n": 2
+  }
+}
