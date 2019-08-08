@@ -46,7 +46,7 @@ for (var i = 0; i < people.length; ++i) {
 If you ran this code, you'd see:
 
 ```bash
-$ python sample_code.py
+$ node sampleCode.js
 Sorry, this area is restricted, Alex.
 Welcome backstage, Sofia.
 ```
