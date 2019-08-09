@@ -1,6 +1,6 @@
 {
   "name": "simple-grant-lang",
-  "version": "0.9.1",
+  "version": "0.9.3",
   "description": "Simple Grant Language (SGL)",
   "main": "sgl.js",
   "scripts": {
