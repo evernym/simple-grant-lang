@@ -4,8 +4,6 @@ This is the JavaScript implementation of SGL. It is usable in both
 node.js and browser environments. There is also a [python implementation](
 https://pypi.org/project/sgl/).
 
-# SGL (Simple Grant Language)
-
 SGL is a simple but flexible [DSL](
 https://en.wikipedia.org/wiki/Domain-specific_language) for matching people against criteria (typically, authorization). It is like [XACML](
 https://en.wikipedia.org/wiki/XACML) but simpler and JSON-oriented. You
@@ -22,7 +20,7 @@ should be allowed backstage at a concert:
 {"grant": ["backstage"], "when": { "roles": "press" }}
 ```
 
-And here's how you might use that rule in JavaScript/Node.JS code (Compare the [python equivalent](https://github.com/evernym/sgl/README.md)):
+And here's how you might use that rule in JavaScript/Node.JS code (Compare the [python equivalent](https://github.com/evernym/sgl/blob/master/README.md)):
 
 ```js
 var sgl = require('simple-grant-lang')
