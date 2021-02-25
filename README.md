@@ -33,11 +33,12 @@ people = [
 ];
 
 for (var i = 0; i < people.length; ++i) {
-    name = people[i].id;
+    person = people[i];
+    name = person.id;
     if (sgl.satisfies(person, my_rule)) {
-        console.print("Welcome backstage, " + name);
+        console.log("Welcome backstage, " + name);
     } else {
-        console.print("Sorry, this area is restricted, " + name);
+        console.log("Sorry, this area is restricted, " + name);
     }
 }
 ```
