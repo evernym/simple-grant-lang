@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/evernym/simple-grant-lang#readme",
   "devDependencies": {
-    "mocha": "^6.2.0"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "better-assert": "^1.0.2"
